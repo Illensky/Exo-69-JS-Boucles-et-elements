@@ -7,6 +7,7 @@ let supprimer = document.getElementById('delete');
 valid.addEventListener('click', function (){
     let nouvelElement = document.createElement("li");
     nouvelElement.innerText = input.value;
+    input.value = '';
     list.appendChild(nouvelElement);
 });
 
